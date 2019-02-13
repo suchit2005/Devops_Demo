@@ -1,0 +1,9 @@
+{
+  "name": "projectdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "qs-version-control": "https://suchit.patil@innersource.accenture.com/scm/va/qs-version-control.git#Release"
+  }
+}

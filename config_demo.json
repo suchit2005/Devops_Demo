@@ -1,0 +1,28 @@
+{
+  "env_name": "QS Desktop",
+  "env_type": "desktop",
+  "sourceQVF": "My First App",
+  "sourceQVFID": "5c78551a-3890-4eb5-9a96-3ce80fbf3246",
+  "targetJSON": "./qvf_json",
+  "serverHost": "10.251.6.56",
+  "serverPort": 4747,
+  "desktopHost": "localhost",
+  "desktopPort": 4848,
+  "userDirectory": "",
+  "userId": "suchit2005",
+  "components": {
+    "properties": 1,
+    "loadScript": 1,
+    "sheets": 1,
+    "masterobjects": 1,
+    "appprops": 1,
+    "variables": 1,
+    "dimensions": 1,
+    "measures": 1
+  },
+  "dataconnections": [
+  ],
+  "testDir": "./test_report",
+  "mashupURL": "http://127.0.0.1:4848/extensions/GPUAnalysis/GPUAnalysis.html",
+  "seleniumPort": 4444
+}

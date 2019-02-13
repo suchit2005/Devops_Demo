@@ -1,0 +1,460 @@
+[
+  {
+    "qInfo": {
+      "qId": "9f090040-e213-43f8-958c-376ed43336a2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ErrorMode",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "7078ad90-c86b-4094-b6b9-7cb73b4d5e1f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "StripComments",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "e992c190-2207-4be8-b3f2-bb974a9c139d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "OpenUrlTimeout",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "86400",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "55d1fbe5-8e70-4ba5-be30-d74b428f489a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ScriptError",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "44850b22-8eb2-4038-aa2a-b0c2c33f6c0d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ScriptErrorCount",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "935994d6-ec25-433d-8e19-da8a34903bd8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ScriptErrorList",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "e58803a4-3861-4d4f-b011-efb0288e94ec",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ThousandSep",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": ",",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "0d0dcde9-4b50-4195-b5ce-bd88460a375e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DecimalSep",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": ".",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "ac670377-3494-4f22-a4ae-50408034d118",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "MoneyThousandSep",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": ",",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "7601345a-11ef-4fd2-bd46-9af4af3c80cf",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "MoneyDecimalSep",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": ".",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "40af7bd9-f72d-43c5-868b-cf93144b86ba",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "MoneyFormat",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "$#,##0.00;-$#,##0.00",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "e00d30aa-28f9-4a48-9880-1c4cdba73717",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "TimeFormat",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "h:mm:ss TT",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "16ad3f50-c5d7-4f0b-b602-da66958d2ac5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DateFormat",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "M/D/YYYY",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "867b21e7-2494-4dd1-ae17-7d575a4ce732",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "TimestampFormat",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "M/D/YYYY h:mm:ss[.fff] TT",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "2b5c1a5b-6a37-43d9-95db-64621d367dd3",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "FirstWeekDay",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "6",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "f232a7c5-6dea-44d9-9f07-465b0b518379",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "BrokenWeeks",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "c4ae25a9-3ef2-4a84-8d42-e8b867da99a9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ReferenceDay",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "da8363e8-21c9-4ee0-ae10-fc51d2072fb3",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "FirstMonthOfYear",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "ebe18b00-21eb-46cc-8bf8-28e74009c27c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "CollationLocale",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "en-US",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "236e6dfc-e8d4-4288-9184-9b358c44a96a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "CreateSearchIndexOnReload",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "577b4af6-f856-487c-bdc2-15780f2e3989",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "MonthNames",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "ec6ed58b-fc01-4f2b-b662-f6c03b860b11",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "LongMonthNames",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "January;February;March;April;May;June;July;August;September;October;November;December",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "c14f9397-4b6e-4e83-a64d-3f66035bbc3e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DayNames",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "1d01ae92-085b-4168-a17b-97e9fc996906",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "LongDayNames",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "891bfb56-7c57-4311-b402-cea11dad386e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "NumericalAbbreviation",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y",
+    "qIsScriptCreated": true,
+    "qIsReserved": true
+  },
+  {
+    "qInfo": {
+      "qId": "68aed100-f752-44c7-a84d-298ee1ba2e13",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "name",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Sheet1",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "7fa7211c-8b62-4a32-b9ed-a3b88013c8a4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "index",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "055892f1-d472-40a8-88f8-32b02a1d86f6",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "currentName",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Sheet1",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "1db9ac69-d0ea-4125-b4ab-5e0afe3d0b82",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "matches",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "qIsScriptCreated": true
+  }
+]
