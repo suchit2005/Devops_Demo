@@ -273,9 +273,9 @@ pseudomap@^1.0.2:
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
-"qs-version-control@https://suchit.patil@innersource.accenture.com/scm/va/qs-version-control.git#Release":
-  version "3.0.0"
-  resolved "https://suchit.patil@innersource.accenture.com/scm/va/qs-version-control.git#fb5a28fbd84b066f01563190c1911d32d8fbba77"
+"qs-version-control-dev@https://github.com/suchit2005/qs-version-control-dev.git":
+  version "0.0.1"
+  resolved "https://github.com/suchit2005/qs-version-control-dev.git#89a4ac181fb78adcbc9780b15e25fadc5a267728"
   dependencies:
     enigma.js "^2.0.0"
     ws "^3.1.0"

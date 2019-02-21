@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "qs-version-control": "https://suchit.patil@innersource.accenture.com/scm/va/qs-version-control.git#Release"
+    "qs-version-control-dev": "https://github.com/suchit2005/qs-version-control-dev.git"
   }
 }
