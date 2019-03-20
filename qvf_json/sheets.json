@@ -2,6 +2,781 @@
   {
     "qProperty": {
       "qInfo": {
+        "qId": "b5c7b6e4-69d1-4bd7-bb3c-ad57a1c1b209",
+        "qType": "sheet"
+      },
+      "qMetaDef": {
+        "title": "My new sheet",
+        "description": ""
+      },
+      "rank": 1,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "columns": 24,
+      "rows": 12,
+      "cells": [
+        {
+          "name": "Psvw",
+          "type": "boxplot",
+          "col": 0,
+          "row": 3,
+          "colspan": 24,
+          "rowspan": 9,
+          "bounds": {
+            "y": 25,
+            "x": 0,
+            "width": 100,
+            "height": 75
+          }
+        },
+        {
+          "name": "KrxsN",
+          "type": "table",
+          "col": 0,
+          "row": 0,
+          "colspan": 24,
+          "rowspan": 3,
+          "bounds": {
+            "y": 0,
+            "x": 0,
+            "width": 100,
+            "height": 25
+          }
+        }
+      ],
+      "qChildListDef": {
+        "qData": {
+          "title": "/title"
+        }
+      },
+      "gridResolution": "small"
+    },
+    "qChildren": [
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "Psvw",
+            "qType": "boxplot"
+          },
+          "qMetaDef": {},
+          "boxplotDef": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Desgination"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "LZJmXRN",
+                    "othersLabel": "Others"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qSuppressOther": true,
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(Salary)",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "FVBRuMS",
+                    "numFormatFromTemplate": true
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0,
+                1
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qAlwaysFullyExpanded": true,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": []
+                }
+              }
+            },
+            "calculations": {
+              "auto": true,
+              "mode": "tukey",
+              "parameters": {
+                "tukey": 1.5,
+                "fractiles": 0.01,
+                "stdDev": 3
+              }
+            },
+            "elements": {
+              "firstWhisker": {
+                "name": "",
+                "expression": null
+              },
+              "boxStart": {
+                "name": "",
+                "expression": null
+              },
+              "boxMiddle": {
+                "name": "",
+                "expression": null
+              },
+              "boxEnd": {
+                "name": "",
+                "expression": null
+              },
+              "lastWhisker": {
+                "name": "",
+                "expression": null
+              },
+              "outliers": {
+                "include": true
+              }
+            },
+            "presentation": {
+              "whiskers": {
+                "show": true
+              }
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "box": {
+                "paletteColor": {
+                  "index": -1,
+                  "color": "#e6e6e6"
+                }
+              },
+              "point": {
+                "paletteColor": {
+                  "index": 6,
+                  "color": "#4477aa"
+                }
+              },
+              "expressionIsColor": true
+            },
+            "sorting": {
+              "autoSort": true
+            }
+          },
+          "refLine": {
+            "refLines": []
+          },
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "showDetails": false,
+          "orientation": "vertical",
+          "gridlines": {
+            "auto": true,
+            "spacing": 2
+          },
+          "measureAxis": {
+            "show": "all",
+            "dock": "near",
+            "spacing": 1,
+            "autoMinMax": true,
+            "minMax": "min",
+            "min": 0,
+            "max": 10
+          },
+          "dimensionAxis": {
+            "show": "all",
+            "label": "auto",
+            "dock": "near"
+          },
+          "visualization": "boxplot",
+          "qUndoExclude": {
+            "hashCode": -1210429090,
+            "box": {
+              "qHyperCubeDef": {
+                "qDimensions": [],
+                "qMeasures": [
+                  {
+                    "qDef": {
+                      "qLabel": "First whisker",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Rangemax(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Min( total  Aggr( Sum(Salary),  [Desgination] )  ))",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "cId": "aZkpR"
+                    },
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "=if(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5) < Min( total  Aggr( Sum(Salary),  [Desgination] )  ), 'Minimum', 'Box start - 1.5 IQR' )",
+                        "qAttribute": true,
+                        "id": "tooltip"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "boxElement": "firstWhisker"
+                  },
+                  {
+                    "qDef": {
+                      "qLabel": "Box start",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "cId": "DePPJn"
+                    },
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "='First quartile'",
+                        "qAttribute": true,
+                        "id": "tooltip"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "boxElement": "boxStart"
+                  },
+                  {
+                    "qDef": {
+                      "qLabel": "Center line",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Median( total  Aggr( Sum(Salary),  [Desgination] )  )",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "cId": "ZyaUT"
+                    },
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "='Median'",
+                        "qAttribute": true,
+                        "id": "tooltip"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "boxElement": "boxMiddle"
+                  },
+                  {
+                    "qDef": {
+                      "qLabel": "Box end",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 )",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "cId": "zqgT"
+                    },
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "='Third quartile'",
+                        "qAttribute": true,
+                        "id": "tooltip"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "boxElement": "boxEnd"
+                  },
+                  {
+                    "qDef": {
+                      "qLabel": "Last whisker",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Rangemin(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) + ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Max( total  Aggr( Sum(Salary),  [Desgination] )  ))",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "cId": "WmsBQU"
+                    },
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "=if(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) + ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5) > Max( total  Aggr( Sum(Salary),  [Desgination] )  ), 'Maximum', 'Box end + 1.5 IQR' )",
+                        "qAttribute": true,
+                        "id": "tooltip"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "boxElement": "lastWhisker"
+                  }
+                ],
+                "qInterColumnSortOrder": [],
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "S",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": []
+              }
+            },
+            "outliers": {
+              "qHyperCubeDef": {
+                "qDimensions": [
+                  {
+                    "qDef": {
+                      "qGrouping": "N",
+                      "qFieldDefs": [
+                        "=aggr( If( Sum(Salary) < Rangemax(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Min( total  Aggr( Sum(Salary),  [Desgination] )  )) or Sum(Salary) > Rangemin(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) + ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Max( total  Aggr( Sum(Salary),  [Desgination] )  )),  [Desgination] ), [Desgination] )"
+                      ],
+                      "qFieldLabels": [
+                        ""
+                      ],
+                      "qSortCriterias": [
+                        {
+                          "qSortByNumeric": 1,
+                          "qSortByAscii": 1,
+                          "qSortByLoadOrder": 1,
+                          "qSortByExpression": 1,
+                          "qExpression": {
+                            "qv": "=aggr( If( Sum(Salary) < Rangemax(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Min( total  Aggr( Sum(Salary),  [Desgination] )  )), Rangemax(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Min( total  Aggr( Sum(Salary),  [Desgination] )  )) - Sum(Salary), Sum(Salary) - Rangemin(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) + ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Max( total  Aggr( Sum(Salary),  [Desgination] )  )) ), [Desgination] )"
+                          }
+                        }
+                      ],
+                      "qNumberPresentations": [],
+                      "qActiveField": 0,
+                      "autoSort": true,
+                      "cId": "RNtmJZ",
+                      "othersLabel": "Others"
+                    },
+                    "qNullSuppression": true,
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {
+                        "qv": "10"
+                      },
+                      "qOtherLimit": {
+                        "qv": "0"
+                      },
+                      "qOtherLimitMode": "OTHER_GE_LIMIT",
+                      "qSuppressOther": true,
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qOtherLabel": {
+                      "qv": "Others"
+                    },
+                    "qTotalLabel": {},
+                    "qCalcCond": {},
+                    "qAttributeExpressions": [],
+                    "qAttributeDimensions": [],
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    }
+                  },
+                  {
+                    "qDef": {
+                      "qGrouping": "N",
+                      "qFieldDefs": [
+                        "Desgination"
+                      ],
+                      "qFieldLabels": [
+                        ""
+                      ],
+                      "qSortCriterias": [
+                        {
+                          "qSortByNumeric": 1,
+                          "qSortByAscii": 1,
+                          "qSortByLoadOrder": 1,
+                          "qExpression": {}
+                        }
+                      ],
+                      "qNumberPresentations": [],
+                      "qActiveField": 0,
+                      "autoSort": true,
+                      "cId": "LZJmXRN",
+                      "othersLabel": "Others"
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {
+                        "qv": "10"
+                      },
+                      "qOtherLimit": {
+                        "qv": "0"
+                      },
+                      "qOtherLimitMode": "OTHER_GE_LIMIT",
+                      "qSuppressOther": true,
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qOtherLabel": {
+                      "qv": "Others"
+                    },
+                    "qTotalLabel": {},
+                    "qCalcCond": {},
+                    "qAttributeExpressions": [],
+                    "qAttributeDimensions": [],
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    }
+                  }
+                ],
+                "qMeasures": [
+                  {
+                    "qDef": {
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "=aggr( If( Sum(Salary) < Rangemax(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 ) - ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Min( total  Aggr( Sum(Salary),  [Desgination] )  )) or Sum(Salary) > Rangemin(Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) + ((Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.75 ) - Fractile( total  Aggr( Sum(Salary),  [Desgination] ) ,0.25 )) * 1.5), Max( total  Aggr( Sum(Salary),  [Desgination] )  )), Sum(Salary) ), [Desgination] )",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 10,
+                        "qUseThou": 0
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "autoSort": true,
+                      "cId": "FVBRuMS",
+                      "numFormatFromTemplate": true
+                    },
+                    "qSortBy": {
+                      "qSortByNumeric": -1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    }
+                  }
+                ],
+                "qInterColumnSortOrder": [
+                  0,
+                  1,
+                  2
+                ],
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "K",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qAlwaysFullyExpanded": true,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": []
+              }
+            }
+          }
+        },
+        "qChildren": []
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "KrxsN",
+            "qType": "table"
+          },
+          "qMetaDef": {},
+          "qHyperCubeDef": {
+            "qDimensions": [
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "Desgination"
+                  ],
+                  "qFieldLabels": [
+                    ""
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "uwrs",
+                  "othersLabel": "Others",
+                  "textAlign": {
+                    "auto": true,
+                    "align": "left"
+                  },
+                  "representation": {
+                    "type": "text",
+                    "urlLabel": ""
+                  }
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                }
+              }
+            ],
+            "qMeasures": [],
+            "qInterColumnSortOrder": [
+              0
+            ],
+            "qSuppressMissing": true,
+            "qInitialDataFetch": [],
+            "qReductionMode": "N",
+            "qMode": "S",
+            "qPseudoDimPos": -1,
+            "qNoOfLeftDims": -1,
+            "qMaxStackedCells": 5000,
+            "qCalcCond": {},
+            "qTitle": {},
+            "qCalcCondition": {
+              "qCond": {},
+              "qMsg": {}
+            },
+            "qColumnOrder": [
+              0
+            ],
+            "columnOrder": [
+              0
+            ],
+            "columnWidths": [
+              -1
+            ],
+            "qLayoutExclude": {
+              "qHyperCubeDef": {
+                "qDimensions": [],
+                "qMeasures": [],
+                "qInterColumnSortOrder": [],
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "S",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": []
+              }
+            }
+          },
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "showDetails": false,
+          "totals": {
+            "show": true,
+            "position": "noTotals",
+            "label": "Totals"
+          },
+          "scrolling": {
+            "keepFirstColumnInView": false,
+            "horizontal": true
+          },
+          "multiline": {
+            "wrapTextInHeaders": true,
+            "wrapTextInCells": true
+          },
+          "visualization": "table"
+        },
+        "qChildren": []
+      }
+    ]
+  },
+  {
+    "qProperty": {
+      "qInfo": {
         "qId": "531191da-1e91-46fd-81cd-2eb2a8c979cc",
         "qType": "sheet"
       },
@@ -94,7 +869,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Name]"
+                    "Name"
                   ],
                   "qFieldLabels": [
                     "Name"
@@ -285,7 +1060,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Desgination]"
+                    "Desgination"
                   ],
                   "qFieldLabels": [
                     "Desgination"
@@ -336,7 +1111,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Name]"
+                    "Name"
                   ],
                   "qFieldLabels": [
                     "Name"
@@ -506,7 +1281,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Name]"
+                    "Name"
                   ],
                   "qFieldLabels": [
                     "Name"
@@ -563,7 +1338,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Desgination]"
+                    "Desgination"
                   ],
                   "qFieldLabels": [
                     "Desgination"
@@ -761,14 +1536,14 @@
             "quarantine": {}
           },
           "qUndoExclude": {
-            "hashCode": -1499776838,
+            "hashCode": 132581302,
             "qHyperCubeDef": {
               "qDimensions": [
                 {
                   "qDef": {
                     "qGrouping": "N",
                     "qFieldDefs": [
-                      "[Desgination]"
+                      "Desgination"
                     ],
                     "qFieldLabels": [
                       "Desgination"
@@ -779,7 +1554,7 @@
                         "qSortByAscii": 1,
                         "qSortByLoadOrder": 1,
                         "qExpression": {
-                          "qv": "Min( total <[[Desgination]]]> Aggr( avg([Salary]), [[Desgination]]], [[Name]]] ), 0 )"
+                          "qv": "Min( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 0 )"
                         }
                       }
                     ],
@@ -811,11 +1586,11 @@
                   "qCalcCond": {},
                   "qAttributeExpressions": [
                     {
-                      "qExpression": "Min( total <[[Desgination]]]> Aggr( avg([Salary]), [[Desgination]]], [[Name]]] ), 0 )",
+                      "qExpression": "Min( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 0 )",
                       "id": "minBoxValue"
                     },
                     {
-                      "qExpression": "Max( total <[[Desgination]]]> Aggr( avg([Salary]), [[Desgination]]], [[Name]]] ), 1 )",
+                      "qExpression": "Max( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 1 )",
                       "id": "maxBoxValue"
                     }
                   ],
@@ -836,7 +1611,7 @@
                   "qDef": {
                     "qGrouping": "N",
                     "qFieldDefs": [
-                      "[Name]"
+                      "Name"
                     ],
                     "qFieldLabels": [
                       "Name"
@@ -974,7 +1749,7 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "[Desgination]"
+                    "Desgination"
                   ],
                   "qFieldLabels": [
                     "Desgination"
