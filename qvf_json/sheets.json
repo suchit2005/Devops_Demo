@@ -2,7 +2,7 @@
   {
     "qProperty": {
       "qInfo": {
-        "qId": "545635a1-b892-499d-8194-0b0d6a3ad386",
+        "qId": "531191da-1e91-46fd-81cd-2eb2a8c979cc",
         "qType": "sheet"
       },
       "qMetaDef": {
@@ -17,39 +17,60 @@
       "rows": 12,
       "cells": [
         {
-          "name": "VtpAke",
+          "name": "epDJvKs",
           "type": "barchart",
           "col": 0,
           "row": 0,
-          "colspan": 24,
+          "colspan": 12,
           "rowspan": 6,
           "bounds": {
             "y": 0,
             "x": 0,
-            "width": 100,
+            "width": 50,
             "height": 50
           }
         },
         {
-          "name": "WDkjmZM",
-          "type": "linechart",
+          "name": "pvXJGPh",
+          "type": "treemap",
+          "col": 12,
+          "row": 0,
+          "colspan": 12,
+          "rowspan": 6,
+          "bounds": {
+            "y": 0,
+            "x": 50,
+            "width": 50,
+            "height": 50
+          }
+        },
+        {
+          "name": "vUxta",
+          "type": "distributionplot",
           "col": 0,
           "row": 6,
-          "colspan": 24,
-          "rowspan": 6
+          "colspan": 12,
+          "rowspan": 6,
+          "bounds": {
+            "y": 50,
+            "x": 0,
+            "width": 50,
+            "height": 50
+          }
         }
       ],
       "qChildListDef": {
         "qData": {
           "title": "/title"
         }
-      }
+      },
+      "gridResolution": "small"
     },
     "qChildren": [
       {
         "qProperty": {
           "qInfo": {
-            "qId": "VtpAke",
+            "qId": "epDJvKs",
             "qType": "barchart"
           },
           "qMetaDef": {},
@@ -59,10 +80,10 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "Desgination"
+                    "Name"
                   ],
                   "qFieldLabels": [
-                    ""
+                    "Name"
                   ],
                   "qSortCriterias": [
                     {
@@ -75,7 +96,7 @@
                   "qNumberPresentations": [],
                   "qActiveField": 0,
                   "autoSort": true,
-                  "cId": "PpZEm",
+                  "cId": "TqxPtj",
                   "othersLabel": "Others"
                 },
                 "qOtherTotalSpec": {
@@ -103,15 +124,17 @@
                 "qCalcCondition": {
                   "qCond": {},
                   "qMsg": {}
-                }
+                },
+                "othersLabel": "Others"
               }
             ],
             "qMeasures": [
               {
                 "qDef": {
+                  "qLabel": "=avg([Salary])",
                   "qTags": [],
                   "qGrouping": "N",
-                  "qDef": "Sum(Salary)",
+                  "qDef": "=avg([Salary])",
                   "qNumFormat": {
                     "qType": "U",
                     "qnDec": 10,
@@ -121,7 +144,7 @@
                   "qActiveExpression": 0,
                   "qExpressions": [],
                   "autoSort": true,
-                  "cId": "PAeTvx",
+                  "cId": "QnMVgM",
                   "numFormatFromTemplate": true
                 },
                 "qSortBy": {
@@ -163,33 +186,13 @@
               "qCond": {},
               "qMsg": {}
             },
-            "qColumnOrder": [],
-            "qLayoutExclude": {
-              "qHyperCubeDef": {
-                "qDimensions": [],
-                "qMeasures": [],
-                "qInterColumnSortOrder": [],
-                "qInitialDataFetch": [],
-                "qReductionMode": "N",
-                "qMode": "S",
-                "qPseudoDimPos": -1,
-                "qNoOfLeftDims": -1,
-                "qMaxStackedCells": 5000,
-                "qCalcCond": {},
-                "qTitle": {},
-                "qCalcCondition": {
-                  "qCond": {},
-                  "qMsg": {}
-                },
-                "qColumnOrder": []
-              }
-            }
+            "qColumnOrder": []
           },
           "refLine": {
             "refLines": []
           },
           "showTitles": true,
-          "title": "",
+          "title": "'Name' by 'avg(Salary)'",
           "subtitle": "",
           "footnote": "",
           "showDetails": false,
@@ -246,15 +249,20 @@
             "min": 0,
             "max": 10
           },
-          "visualization": "barchart"
+          "visualization": "barchart",
+          "isRecommended": true,
+          "qLayoutExclude": {
+            "disabled": {},
+            "quarantine": {}
+          }
         },
         "qChildren": []
       },
       {
         "qProperty": {
           "qInfo": {
-            "qId": "WDkjmZM",
-            "qType": "linechart"
+            "qId": "pvXJGPh",
+            "qType": "treemap"
           },
           "qMetaDef": {},
           "qHyperCubeDef": {
@@ -263,10 +271,10 @@
                 "qDef": {
                   "qGrouping": "N",
                   "qFieldDefs": [
-                    "Name"
+                    "Desgination"
                   ],
                   "qFieldLabels": [
-                    ""
+                    "Desgination"
                   ],
                   "qSortCriterias": [
                     {
@@ -279,7 +287,7 @@
                   "qNumberPresentations": [],
                   "qActiveField": 0,
                   "autoSort": true,
-                  "cId": "rTsMJX",
+                  "cId": "MWmrn",
                   "othersLabel": "Others"
                 },
                 "qOtherTotalSpec": {
@@ -307,15 +315,68 @@
                 "qCalcCondition": {
                   "qCond": {},
                   "qMsg": {}
-                }
+                },
+                "othersLabel": "Others"
+              },
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "Name"
+                  ],
+                  "qFieldLabels": [
+                    "Name"
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "WGgxmY",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "othersLabel": "Others"
               }
             ],
             "qMeasures": [
               {
                 "qDef": {
+                  "qLabel": "=avg([Salary])",
                   "qTags": [],
                   "qGrouping": "N",
-                  "qDef": "Sum(Salary)",
+                  "qDef": "=avg([Salary])",
                   "qNumFormat": {
                     "qType": "U",
                     "qnDec": 10,
@@ -325,7 +386,7 @@
                   "qActiveExpression": 0,
                   "qExpressions": [],
                   "autoSort": true,
-                  "cId": "uHRYNX",
+                  "cId": "YvsmeN",
                   "numFormatFromTemplate": true
                 },
                 "qSortBy": {
@@ -344,71 +405,46 @@
             ],
             "qInterColumnSortOrder": [
               0,
-              1
+              1,
+              2
             ],
             "qSuppressMissing": true,
             "qInitialDataFetch": [
               {
                 "qLeft": 0,
                 "qTop": 0,
-                "qWidth": 17,
-                "qHeight": 500
+                "qWidth": 30,
+                "qHeight": 3000
               }
             ],
             "qReductionMode": "N",
-            "qMode": "S",
+            "qMode": "K",
             "qPseudoDimPos": -1,
             "qNoOfLeftDims": -1,
             "qAlwaysFullyExpanded": true,
-            "qMaxStackedCells": 5000,
+            "qMaxStackedCells": 3000,
+            "qShowTotalsAbove": true,
+            "qIndentMode": true,
             "qCalcCond": {},
+            "qSortbyYValue": -1,
             "qTitle": {},
             "qCalcCondition": {
               "qCond": {},
               "qMsg": {}
             },
-            "qColumnOrder": [],
-            "qLayoutExclude": {
-              "qHyperCubeDef": {
-                "qDimensions": [],
-                "qMeasures": [],
-                "qInterColumnSortOrder": [],
-                "qInitialDataFetch": [],
-                "qReductionMode": "N",
-                "qMode": "S",
-                "qPseudoDimPos": -1,
-                "qNoOfLeftDims": -1,
-                "qMaxStackedCells": 5000,
-                "qCalcCond": {},
-                "qTitle": {},
-                "qCalcCondition": {
-                  "qCond": {},
-                  "qMsg": {}
-                },
-                "qColumnOrder": []
-              }
-            }
-          },
-          "refLine": {
-            "refLines": []
+            "qColumnOrder": []
           },
           "showTitles": true,
-          "title": "",
+          "title": "'avg(Salary)' broken down by 'Name' and 'Desgination'",
           "subtitle": "",
           "footnote": "",
           "showDetails": false,
-          "lineType": "line",
-          "stackedArea": false,
-          "separateStacking": true,
-          "scrollStartPos": 0,
-          "nullMode": "gap",
-          "dataPoint": {
-            "show": false,
-            "showLabels": false
-          },
-          "gridLine": {
+          "labels": {
             "auto": true,
-            "spacing": 2
+            "headers": true,
+            "overlay": true,
+            "leaves": true,
+            "values": false
           },
           "color": {
             "auto": true,
@@ -419,7 +455,7 @@
             },
             "useDimColVal": true,
             "useMeasureGradient": true,
-            "persistent": false,
+            "persistent": true,
             "expressionIsColor": true,
             "expressionLabel": "",
             "measureScheme": "sg",
@@ -430,18 +466,263 @@
             "measureMax": 10
           },
           "legend": {
+            "show": false,
+            "dock": "auto",
+            "showTitle": true
+          },
+          "visualization": "treemap",
+          "isRecommended": true,
+          "qLayoutExclude": {
+            "disabled": {},
+            "quarantine": {}
+          }
+        },
+        "qChildren": []
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "vUxta",
+            "qType": "distributionplot"
+          },
+          "qMetaDef": {},
+          "qHyperCubeDef": {
+            "qDimensions": [
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "Name"
+                  ],
+                  "qFieldLabels": [
+                    "Name"
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "EJVyCp",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "showDetails": false,
+                "qStateName": "",
+                "othersLabel": "Others"
+              },
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "Desgination"
+                  ],
+                  "qFieldLabels": [
+                    "Desgination"
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "gFHAE",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "showDetails": false,
+                "qStateName": "",
+                "othersLabel": "Others"
+              }
+            ],
+            "qMeasures": [
+              {
+                "qDef": {
+                  "qLabel": "=avg([Salary])",
+                  "qTags": [],
+                  "qGrouping": "N",
+                  "qDef": "=avg([Salary])",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qAccumulate": 0,
+                  "qActiveExpression": 0,
+                  "qExpressions": [],
+                  "autoSort": true,
+                  "cId": "ZgLBNM",
+                  "numFormatFromTemplate": true
+                },
+                "qSortBy": {
+                  "qSortByNumeric": -1,
+                  "qSortByLoadOrder": 1,
+                  "qExpression": {}
+                },
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCond": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "showDetails": false,
+                "qStateName": ""
+              }
+            ],
+            "qInterColumnSortOrder": [
+              1,
+              2,
+              0
+            ],
+            "qSuppressMissing": true,
+            "qInitialDataFetch": [
+              {
+                "qLeft": 0,
+                "qTop": 0,
+                "qWidth": 0,
+                "qHeight": 0
+              }
+            ],
+            "qReductionMode": "N",
+            "qMode": "K",
+            "qPseudoDimPos": -1,
+            "qNoOfLeftDims": -1,
+            "qAlwaysFullyExpanded": true,
+            "qMaxStackedCells": 5000,
+            "qCalcCond": {},
+            "qTitle": {},
+            "qCalcCondition": {
+              "qCond": {},
+              "qMsg": {}
+            },
+            "qColumnOrder": []
+          },
+          "refLine": {
+            "refLines": []
+          },
+          "showTitles": true,
+          "title": "Overview of 'Desgination' by 'Name' and 'avg(Salary)'",
+          "subtitle": "",
+          "footnote": "",
+          "showDetails": false,
+          "orientation": "horizontal",
+          "presentation": {
+            "visibleComponents": "points_box"
+          },
+          "gridlines": {
+            "auto": true,
+            "spacing": 2
+          },
+          "dataPoint": {
+            "bubbleScales": 100,
+            "displacement": "none"
+          },
+          "color": {
+            "point": {
+              "auto": true,
+              "mode": "primary",
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "persistent": true,
+              "expressionIsColor": true,
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10,
+              "expressionLabel": ""
+            },
+            "expressionLabel": "",
+            "box": {
+              "paletteColor": {
+                "index": -1,
+                "color": "#e6e6e6"
+              }
+            },
+            "colorExpression": ""
+          },
+          "legend": {
             "show": true,
             "dock": "auto",
             "showTitle": true
           },
-          "dimensionAxis": {
-            "continuousAuto": true,
-            "show": "all",
-            "label": "auto",
-            "dock": "near"
-          },
-          "preferContinuousAxis": true,
-          "showMiniChartForContinuousAxis": true,
           "measureAxis": {
             "show": "all",
             "dock": "near",
@@ -449,10 +730,220 @@
             "autoMinMax": true,
             "minMax": "min",
             "min": 0,
-            "max": 10,
-            "logarithmic": false
+            "max": 10
           },
-          "visualization": "linechart"
+          "dimensionAxis": {
+            "show": "all",
+            "label": "auto",
+            "dock": "near"
+          },
+          "visualization": "distributionplot",
+          "sorting": {
+            "autoSort": true
+          },
+          "isRecommended": true,
+          "qLayoutExclude": {
+            "disabled": {},
+            "quarantine": {}
+          },
+          "qUndoExclude": {
+            "hashCode": 132581302,
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Desgination"
+                    ],
+                    "qFieldLabels": [
+                      "Desgination"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {
+                          "qv": "Min( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 0 )"
+                        }
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "gFHAE",
+                    "othersLabel": "Others"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "Min( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 0 )",
+                      "id": "minBoxValue"
+                    },
+                    {
+                      "qExpression": "Max( total <[Desgination]> Aggr( avg([Salary]), [Desgination], [Name] ), 1 )",
+                      "id": "maxBoxValue"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "showTitles": true,
+                  "title": "",
+                  "subtitle": "",
+                  "footnote": "",
+                  "showDetails": false,
+                  "qStateName": "",
+                  "othersLabel": "Others"
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Name"
+                    ],
+                    "qFieldLabels": [
+                      "Name"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "EJVyCp",
+                    "othersLabel": "Others"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "showTitles": true,
+                  "title": "",
+                  "subtitle": "",
+                  "footnote": "",
+                  "showDetails": false,
+                  "qStateName": "",
+                  "othersLabel": "Others"
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "=avg([Salary])",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "=avg([Salary])",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "ZgLBNM",
+                    "numFormatFromTemplate": true
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "showTitles": true,
+                  "title": "",
+                  "subtitle": "",
+                  "footnote": "",
+                  "showDetails": false,
+                  "qStateName": ""
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0,
+                2,
+                1
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "K",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qAlwaysFullyExpanded": true,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": []
+            }
+          }
         },
         "qChildren": []
       }
