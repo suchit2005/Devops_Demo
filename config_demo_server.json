@@ -1,8 +1,8 @@
 {
   "env_name": "QS Desktop",
   "env_type": "server",
-  "sourceQVF": "Sample App",
-  "sourceQVFID": "db079150-68d1-428e-8864-ff6048b96419",
+  "sourceQVF": "Second App",
+  "sourceQVFID": "bbc047c4-bbee-4de7-aea4-4cfcaf9374a5",
   "targetJSON": "./qvf_json",
   "serverHost": "10.100.115.68",
   "serverPort": 4747,
